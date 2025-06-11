@@ -1,0 +1,123 @@
+
+    body {
+      background-color: white;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+      background-color: lightskyblue;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    .search-bar {
+      flex-grow: 1;
+      margin: 0 20px;
+      display: flex;
+    }
+
+    .search-bar input {
+      flex-grow: 1;
+      padding: 6px;
+    }
+
+    .search-bar button {
+      background-color: white;
+      padding: 6px 10px;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 20px;
+    }
+
+    .action-btn {
+      cursor: pointer;
+      color: white;
+    }
+
+    nav.main-nav {
+      background-color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: auto;
+    }
+
+    .category-item {
+      text-align: center;
+      width: 90px;
+      cursor: pointer;
+    }
+
+    .category-item img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 5px;
+    }
+
+    .banner-section {
+      margin: 10px auto;
+      max-width: 98%;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .products-section {
+      background: white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .products-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .card {
+      width: 160px;
+      border: 1px white;
+      padding: 10px;
+      border-radius: 8px;
+      background: white;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+    }
+    .pagination{
+        justify-content: center;
+    }
+
+    footer {
+      background: #243758;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      border-top: 1px black;
+      font-size: 14px;
+    }
+
+    .social-icons i {
+      margin-left: 10px;
+      font-size: 18px;
+    }
